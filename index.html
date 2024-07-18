@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Style.css">
+    <title>Conventor</title>
+</head>
+<body>
+
+    <main>
+        <h1>Conventor de temparatura</h1>
+        <h4>ingresa la pemperatura: </h4>
+        <input type="number" id="inputTemp" placeholder="Ingrse la temperatura">
+        <div class="SelecUnit">
+            <p>Seleccione la unidad: </p>
+            <select id="Unidad">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <button id="Convertir">Convertir</button>
+        </div>
+        <div id="result"></div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
